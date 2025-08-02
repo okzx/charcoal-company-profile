@@ -4,69 +4,62 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PT Arang Nusantara</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h1>PT ARANG NUSANTARA</h1>
-      <p>Sustainable Charcoal for a Cleaner Future</p>
-      <a href="#products" class="btn">Lihat Produk</a>
-    </div>
+
+  <header class="navbar">
+    <div class="logo">Arang Nusantara</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Product</a>
+      <a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <section class="about">
-    <div class="container">
-      <h2>About Us</h2>
-      <p>PT Arang Nusantara is committed to producing high-quality charcoal made from sustainable resources. With years of experience, we serve both local and international markets.</p>
+  <section class="hero">
+    <div class="hero-text">
+      <h1>PT ARANG NUSANTARA</h1>
+      <p>High-Quality Sustainable Charcoal</p>
+      <a href="#products" class="btn">Explore Products</a>
     </div>
   </section>
 
-  <section class="products" id="products">
-    <div class="container">
-      <h2>Our Products</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="assets/images/arang.jpg" alt="Arang Batok Kelapa" />
-          <h3>Arang Batok Kelapa</h3>
-          <p>Cocok untuk BBQ dan shisha. Kadar air rendah, pembakaran stabil dan bersih.</p>
-        </div>
-        <div class="product-card">
-          <img src="assets/images/arang.jpg" alt="Arang Kayu" />
-          <h3>Arang Kayu</h3>
-          <p>Untuk industri dan rumah tangga. Menghasilkan panas tinggi dengan abu rendah.</p>
-        </div>
+  <section id="about" class="section white">
+    <h2>About Us</h2>
+    <p>We produce premium charcoal from coconut shells and wood, exported worldwide with sustainable practices.</p>
+  </section>
+
+  <section id="products" class="section gray">
+    <h2>Our Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="assets/arang.jpg" alt="Arang Batok"/>
+        <h3>Arang Batok Kelapa</h3>
+        <p>Clean burn, long-lasting, eco-friendly.</p>
+      </div>
+      <div class="product-card">
+        <img src="assets/arang.jpg" alt="Arang Kayu"/>
+        <h3>Arang Kayu</h3>
+        <p>Industrial & domestic use with high heat output.</p>
       </div>
     </div>
+  </section>
+
+  <section id="contact" class="section white">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required/>
+      <input type="email" placeholder="Your Email" required/>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
   </section>
 
   <footer class="footer">
-    <p>&copy; 2025 PT Arang Nusantara. All rights reserved.</p>
-  
-  <section class="gallery" id="gallery">
-    <div class="container">
-      <h2>Gallery</h2>
-      <div class="gallery-grid">
-        <img src="assets/images/arang.jpg" alt="Charcoal 1" />
-        <img src="assets/images/arang.jpg" alt="Charcoal 2" />
-        <img src="assets/images/arang.jpg" alt="Charcoal 3" />
-      </div>
-    </div>
-  </section>
+    &copy; 2025 PT Arang Nusantara
+  </footer>
 
-  <section class="contact" id="contact">
-    <div class="container">
-      <h2>Contact Us</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
-    </div>
-  </section>
-</footer>
 </body>
 </html>
